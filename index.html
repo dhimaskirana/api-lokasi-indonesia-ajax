@@ -87,6 +87,7 @@
 				success: function(result){
 					// alert('done');
 					// console.log(result);
+					$('#provinsi').append('<option>Pilih Provinsi</option>');
 					$.each( result.provinsi, function( key, value) {
 						$('#provinsi').append('<option value="'+value.id+'">'+value.nama+'</option>');
 					})
@@ -104,6 +105,7 @@
 					success: function(result){
 						// alert('done');
 						// console.log(result);
+						$('#kabupaten').append('<option>Pilih Kabupaten</option>');
 						$.each( result.kota_kabupaten, function( key, value) {
 							$('#kabupaten').append('<option value="'+value.id+'">'+value.nama+'</option>');
 						})
@@ -121,6 +123,7 @@
 					success: function(result){
 						// alert('done');
 						// console.log(result);
+						$('#kecamatan').append('<option>Pilih Kecamatan</option>');
 						$.each( result.kecamatan, function( key, value) {
 							$('#kecamatan').append('<option value="'+value.id+'">'+value.nama+'</option>');
 						})
@@ -137,6 +140,7 @@
 					success: function(result){
 						// alert('done');
 						// console.log(result);
+						$('#kelurahan').append('<option>Pilih Kelurahan</option>');
 						$.each( result.kelurahan, function( key, value) {
 							$('#kelurahan').append('<option value="'+value.id+'">'+value.nama+'</option>');
 						})

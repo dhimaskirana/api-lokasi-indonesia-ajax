@@ -1,3 +1,5 @@
 # API Lokasi Indonesia using AJAX
+
+Testing Form menggunakan API Lokasi Indonesia.
  
-DEMO: https://labs.dhimaskirana.com/api-lokasi-indonesia-ajax/
+Sumber API: https://farizdotid.com/blog/dokumentasi-api-daerah-indonesia/
